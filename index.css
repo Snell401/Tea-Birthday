@@ -18,15 +18,29 @@
   
   body {
     align-items: center;
-    background-color: #ffd54f;
+    /* insert the background image from the images folder */
+    background-image: url(images/tea.jpg);
+    /* resize image */
+    background-size: 1000px;
+    background-repeat: no-repeat;
+        background-position: center;
     display: flex;
     font-family:  'Pathway Gothic One', sans-serif;
   }
   
   .container {
-    color: rgb(14, 38, 119);
+    color: rgb(19, 48, 141);
+    /* give the letters a black outline */
+    text-shadow: 1px 1px 1px rgb(64, 192, 186);
+
     margin: 0 auto;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.397);
+    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
   }
   
   h1 {
