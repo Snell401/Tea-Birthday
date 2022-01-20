@@ -21,10 +21,9 @@
     /* insert the background image from the images folder */
     background-image: url(images/tea.jpg);
     /* resize image */
-    background-size: cover;
+    background-size: 800px;
     background-repeat: no-repeat;
-        background-position: center;
-    display: flex;
+    background-position: center;
     font-family:  'Pathway Gothic One', sans-serif;
   }
   
@@ -96,7 +95,7 @@
       background-repeat: no-repeat;
       background-position: center;
       transition: background-image 1s;
-      
+
 
     }
   }
