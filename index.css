@@ -21,7 +21,7 @@
     /* insert the background image from the images folder */
     background-image: url(images/tea.jpg);
     /* resize image */
-    background-size: 1000px;
+    background-size: cover;
     background-repeat: no-repeat;
         background-position: center;
     display: flex;
@@ -31,7 +31,7 @@
   .container {
     color: rgb(19, 48, 141);
     /* give the letters a black outline */
-    text-shadow: 1px 1px 1px rgb(64, 192, 186);
+    text-shadow: 1px 1px 1px rgb(64, 192, 186); 
 
     margin: 0 auto;
     text-align: center;
@@ -86,3 +86,18 @@
       font-size: calc(3.375rem * var(--smaller));
     }
   }
+
+  /* resize background image for screen size 500 */
+  @media all and (max-width: 500px) {
+    body {
+      background-image: url(images/tea2.png);
+      /* transition smooth */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      transition: background-image 1s;
+      
+
+    }
+  }
+
