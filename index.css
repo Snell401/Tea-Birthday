@@ -89,7 +89,7 @@
   /* resize background image for screen size 500 */
   @media all and (max-width: 500px) {
     body {
-      background-image: url(images/tea2.png);
+      background-image: url(images/tea.jpg);
       /* transition smooth */
       background-size: cover;
       background-repeat: no-repeat;
